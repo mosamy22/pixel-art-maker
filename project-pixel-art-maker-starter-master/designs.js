@@ -9,7 +9,7 @@ function makeGrid(height, width) {
     var height = $("#input_height").val(); //for rows
     var width = $("#input_width").val(); // for columns
 
-
+    table.html('');
 
     for (var h = 0; h < height; h++) {
         $("#pixel_canvas").append("<tr></tr>");
